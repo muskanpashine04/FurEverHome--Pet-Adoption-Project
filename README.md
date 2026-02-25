@@ -1,6 +1,6 @@
-# PURR!: A Pet Adoption Portal 🐾
+# FurEverHome!: A Pet Adoption Portal 🐾
 
-PURR! is a MERN Stack web application designed to simplify the pet adoption process. It connects pet owners looking to rehome their pets with individuals eager to adopt, all managed through a seamless, admin-monitored system.
+FurEverHome! is a MERN Stack web application designed to simplify the pet adoption process. It connects pet owners looking to rehome their pets with individuals eager to adopt, all managed through a seamless, admin-monitored system.
 
 ## 🌟 Features
 
@@ -23,37 +23,6 @@ PURR! is a MERN Stack web application designed to simplify the pet adoption proc
 * Optimized for **laptop screens**.
 * Please note: Not yet responsive for mobile or tablet devices.
 
-## 🛠️ Installation & Setup (Local)
 
-To get PURR! running on your local machine, follow these steps:
-
-1. **Clone the repository:**
-```bash
-git clone https://github.com/chaitanya21a/PURR-Pet-Adoption
-cd PURR-Pet-Adoption
-```
-
-2. **Install dependencies (for both frontend and backend):**
-```bash
-cd frontend && npm install && cd ../backend && npm install
-```
-
-3. **Create a `.env` file in the `backend` directory:**
-```
-# server/.env
-mongooseURL=mongodb://username:password@host:port/database_name
-```
-
-*Replace `mongodb://username:password@host:port/database_name` with your actual MongoDB connection string.*
-
-4. **Start the server:**
-```bash
-node server.js
-```
-
-5. **Start the frontend:**
-```bash
-npm start
-```
 
 *Ensure you have Node.js and npm installed on your system.*
